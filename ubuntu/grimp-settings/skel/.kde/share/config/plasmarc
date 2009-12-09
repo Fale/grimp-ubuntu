@@ -1,0 +1,9 @@
+[$Version]
+update_info=plasma_popupapplet_fix_groups.upd:PlasmaPopupAppletFixGroups2
+
+[Applet Browser]
+favorites=,lockout,calculator,calendar,trash,unitconverter,frame,dict,tasks,fifteenPuzzle,indicatordisplay,nowplaying,launcher,magnifique,mediaplayer,luna,battery,sm_cpu,sm_hdd,sm_hwinfo,sm_ram,sm_net,system-monitor_applet,sm_temperature,plasma_applet_notes,eyes,opendesktop,clock,binaryclock,fuzzy-clock,worldclock,digital-clock,weather,quicklaunch,rssnow,weatherstation,timer,systemtray
+
+
+[Theme]
+name=Silicon

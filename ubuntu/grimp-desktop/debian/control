@@ -1,0 +1,51 @@
+Source: grimp-desktop
+Section: misc
+Priority: extra
+Maintainer: Fabio Locati <fabiolocati@gmail.com>
+Build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 1.0
+
+Package: grimp-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, grimp-artwork, grimp-desktop-conflicts, grimp-desktop-education, grimp-desktop-games, grimp-desktop-graphics, grimp-desktop-italian, grimp-desktop-misc, grimp-desktop-network, grimp-desktop-nonfree, grimp-settings
+Description: Grimp Desktop meta-package.
+
+Package: grimp-desktop-conflicts
+Architecture: any
+Conflicts: quassel, quassel-data, kubuntu-firefox-installer
+Description: Conflicts for Grimp Desktop.
+
+Package: grimp-desktop-education
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kalgebra, kig, kmplot, kstars, kalzium, kturtle, marble, kgeography, step
+Description: Educational programs for Grimp Desktop.
+
+Package: grimp-desktop-games
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, khangman, kanagram, kbruch, kdegames, supertux-stable, wormux, pokerth
+Description: Games for Grimp Desktop.
+
+Package: grimp-desktop-graphics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, digikam, gimp, kolourpaint4, vlc, kdenlive, cheese, xsane, audacity
+Description: Graphic programs for Grimp Desktop.
+
+Package: grimp-desktop-italian
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, openoffice.org-l10n-it, aspell-it, doc-linux-it, fortunes-it, fortunes-it-off, kde-l10n-it, language-pack-gnome-it, language-pack-gnome-it-base, openoffice.org-help-it, gimp-help-it
+Description: Italian language for Grimp Desktop.
+
+Package: grimp-desktop-misc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, synaptic, kdeartwork, kalarm, alsa-firmware, ntfsprogs, kgpg
+Description: Miscellaneous programs for Grimp Desktop.
+
+Package: grimp-desktop-network
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, firefox, mozilla-plugin-vlc, kmess, amule | amule-adunanza, konversation, sun-java6-plugin
+Description: Network programs for Grimp Desktop.
+
+Package: grimp-desktop-nonfree
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, kubuntu-restricted-extras, wine, libdvdcss2, skype, googleearth, w32codecs [i386], w64codecs [amd64]
+Description: Properaty programs for Grimp Desktop.

@@ -1,0 +1,35 @@
+grimp-settings (0.9.9-1) karmic; urgency=low
+
+  * Conflitting version with Soyuz.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Thu, 13 Nov 2009 12:30:55 +0100
+
+grimp-settings (0.9.9-0) karmic; urgency=low
+
+  * New version system.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Thu, 13 Nov 2009 11:55:57 +0100
+
+grimp-settings (9.10.0-3) karmic; urgency=low
+
+  * Typo.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Thu, 13 Nov 2009 11:11:11 +0100
+
+grimp-settings (9.10.0-2) karmic; urgency=low
+
+  * Major problem.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Thu, 12 Nov 2009 22:19:27 +0100
+
+grimp-settings (9.10.0-1) karmic; urgency=low
+
+  * Minor changes.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Thu, 12 Nov 2009 19:27:45 +0100
+
+grimp-settings (9.10.0-0) karmic; urgency=low
+
+  * Initial port to Karmic.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Mon, 02 Nov 2009 10:42:09 +0100

@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+CFLAGS=-g -Wall -fPIC
+
+%:
+	dh $@
+
+override_dh_builddeb:
+	dh_builddeb -- -Zlzma

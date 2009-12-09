@@ -1,0 +1,31 @@
+Source: grimp-devel
+Section: devel
+Priority: extra
+Maintainer: Fabio Locati <fabiolocati@gmail.com>
+Build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 1.0
+
+Package: grimp-devel
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, grimp-desktop, grimp-devel-electronics, grimp-devel-graphics, grimp-devel-programming, grimp-devel-virtual
+Description: Grimp Devel meta-package
+
+Package: grimp-devel-electronics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, geda, geda-doc, geda-examples, oregano
+Description: Electronics dependencies for Grimp-Devel.
+
+Package: grimp-devel-graphics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, inkscape
+Description: Graphics dependencies for Grimp-Devel.
+
+Package: grimp-devel-programming
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, build-essential, cdbs, cpp-4.2-doc, dh-make, docbook, git-core, gitk, libqt4-dev, libqt4-dev-dbg, qt4-doc, qt4-doc-html, qtcreator, qtcreator-doc,
+Description: Programming dependencies for Grimp-Devel.
+
+Package: grimp-devel-virtual
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, virtualbox-ose, virtualbox-ose-qt, virtualbox-ose-guest-x11, virtualbox-ose-guest-utils
+Description: Virtual dependencies for Grimp-Devel.

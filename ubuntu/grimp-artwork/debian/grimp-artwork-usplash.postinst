@@ -1,0 +1,15 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+    configure)
+	update-alternatives --remove usplash-artwork.so /usr/lib/usplash/grimp-splash.so 
+	update-alternatives --remove usplash-artwork.so /usr/lib/usplash/usplash-theme-grimp.so 
+	update-alternatives --install /usr/lib/usplash/usplash-artwork.so usplash-artwork.so /usr/lib/usplash/usplash-theme-grimp.so 55
+#	update-alternatives --set usplash-artwork.so /usr/lib/usplash/usplash-theme-grimp.so
+	update-initramfs -u
+        ;;
+esac

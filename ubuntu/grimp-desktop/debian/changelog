@@ -1,0 +1,99 @@
+grimp-desktop (0.9.9-4) karmic; urgency=low
+
+  * Typo
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Sun, 22 Nov 2009 23:36:48 +0100
+
+grimp-desktop (0.9.9-3) karmic; urgency=low
+
+  * Now is possible to choose between amule and amule-adunanza
+  * Now the w32codecs and the w64codecs are installed automatically
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Sat, 21 Nov 2009 01:17:40 +0100
+
+grimp-desktop (0.9.9-2) karmic; urgency=low
+
+  * Improve the dinamism of the source.list apt file.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Wen, 18 Nov 2009 14:33:09 +0100
+
+grimp-desktop (0.9.9-1) karmic; urgency=low
+
+  * Now grimp-desktop-italian should work.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Fri, 13 Nov 2009 13:46:07 +0100
+
+grimp-desktop (0.9.9-0) karmic; urgency=low
+
+  * New version system.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Fri, 13 Nov 2009 11:52:21 +0100
+
+grimp-desktop (9.10.0-11) karmic; urgency=low
+
+  * Fix dependency.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Fri, 13 Nov 2009 08:30:08 +0100
+
+grimp-desktop (9.10.0-10) karmic; urgency=low
+
+  * Remove w32 codecs
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Thu, 12 Nov 2009 21:03:45 +0100
+
+grimp-desktop (9.10.0-9) karmic; urgency=low
+
+  * Add grimp-desktop-italian as dependence
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Thu, 12 Nov 2009 19:19:43 +0100
+
+grimp-desktop (9.10.0-8) karmic; urgency=low
+
+  * Add grimp-settings as dependence
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Mon, 02 Nov 2009 15:29:51 +0100
+
+grimp-desktop (9.10.0-7) karmic; urgency=low
+
+  * Fixed keyring stuff
+  * Added kgpg dependence
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Mon, 02 Nov 2009 10:47:32 +0100
+
+grimp-desktop (9.10.0-6) karmic; urgency=low
+
+  * Removed the keyring dependence
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Sat, 17 Oct 2009 11:33:22 +0200
+
+grimp-desktop (9.10.0-5) karmic; urgency=low
+
+  * Added sun-java6-plugin
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Sat, 17 Oct 2009 00:13:07 +0200
+
+grimp-desktop (9.10.0-4) karmic; urgency=low
+
+  * Added the keyring dependence
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Fri, 16 Oct 2009 17:25:03 +0200
+
+grimp-desktop (9.10.0-3) karmic; urgency=low
+
+  * Added ntfsprogs
+  * Splitted in multiple packages
+  * Added grimp-artwork-uspalsh
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Tue, 14 Oct 2009 09:45:25 +0200
+
+grimp-desktop (9.10.0-2) karmic; urgency=low
+
+  * Add conflicts with quassel, quassel-data and kubuntu-firefox-installer
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Mon, 05 Oct 2009 08:20:21 +0200
+
+grimp-desktop (9.10.0-1) karmic; urgency=low
+
+  * Initial port to Karmic.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Sun, 04 Oct 2009 18:05:31 +0200

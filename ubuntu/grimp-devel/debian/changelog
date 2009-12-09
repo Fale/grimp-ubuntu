@@ -1,0 +1,11 @@
+grimp-devel (0.9.9-0) karmic; urgency=low
+
+  * New version system.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Fri, 13 Nov 2009 11:54:08 +0100
+
+grimp-devel (9.10.0-1) karmic; urgency=low
+
+  * Initial port to Karmic.
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Mon, 05 Oct 2009 12:46:42 +0200

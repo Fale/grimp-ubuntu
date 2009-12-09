@@ -1,0 +1,21 @@
+Source: grimp-artwork
+Section: utils
+Priority: optional
+Maintainer: Fabio Locati <fabiolocati@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), libusplash-dev (>= 0.5.30)
+Standards-Version: 1.0
+
+Package: grimp-artwork
+Architecture: any
+Depends: ${misc:Depends}, grimp-artwork-usplash
+Description: Default settings and artwork for the Grimp desktop
+ This package contains the default settings used by Grimp. It also
+ includes artwork and Grimp branding.
+
+Package: grimp-artwork-usplash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, initramfs-tools (>= 0.40ubuntu30),
+ usplash (>= 0.5-30)
+Provides: usplash-theme
+Description: Grimp artwork for usplash
+ The usplash startup screen for Grimp.

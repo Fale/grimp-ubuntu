@@ -1,0 +1,11 @@
+Source: grimp-settings
+Section: misc
+Priority: extra
+Maintainer: Fabio Locati <fabiolocati@gmail.com>
+Build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 1.0
+
+Package: grimp-settings
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Default settings for Grimp Linux

@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+install/grimp-settings::
+	cp -r skel/.config debian/$(cdbs_curpkg)/etc/skel/
+	cp -r skel/.kde debian/$(cdbs_curpkg)/etc/skel/
+	cp -r skel/.local debian/$(cdbs_curpkg)/etc/skel/

@@ -1,0 +1,23 @@
+[$Version]
+update_info=plasma_popupapplet_fix_groups.upd:PlasmaPopupAppletFixGroups2
+
+[Colors]
+CurrentPalette=Forty Colors
+
+[KPropertiesDialog]
+Height 800=375
+Width 1280=639
+
+[PlasmaAppletBrowserDialog]
+Height 600=543
+Height 800=599
+Width 1280=540
+Width 800=453
+
+[PlasmaViews][2]
+Offset=0
+panelVisibility=0
+
+[ViewIds]
+14=1
+4=2
