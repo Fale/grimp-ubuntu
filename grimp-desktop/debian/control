@@ -12,7 +12,7 @@ Description: Grimp Desktop meta-package.
 
 Package: grimp-desktop-conflicts
 Architecture: any
-Conflicts: quassel, quassel-data, kubuntu-firefox-installer
+Conflicts: quassel, quassel-data, kubuntu-firefox-installer, kpackagekit
 Description: Conflicts for Grimp Desktop.
 
 Package: grimp-desktop-education
@@ -37,7 +37,7 @@ Description: Italian language for Grimp Desktop.
 
 Package: grimp-desktop-misc
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, synaptic, kdeartwork, kalarm, alsa-firmware, ntfsprogs, kgpg
+Depends: ${shlibs:Depends}, ${misc:Depends}, synaptic, kdeartwork, kalarm, alsa-firmware, ntfsprogs, kgpg, software-center
 Description: Miscellaneous programs for Grimp Desktop.
 
 Package: grimp-desktop-network

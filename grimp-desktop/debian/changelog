@@ -1,3 +1,10 @@
+grimp-desktop (0.9.9-5) karmic; urgency=low
+
+  * Remove kpackagekit
+  * Add software-center
+
+ -- Fabio Locati <fabiolocati@gmail.com>  Mon, 14 Dic 2009 18:50:25 +0100
+
 grimp-desktop (0.9.9-4) karmic; urgency=low
 
   * Typo
